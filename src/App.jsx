@@ -1,4 +1,4 @@
-import Home from './components/Home';
+import Inicio from './components/Inicio';
 import Login from './components/Login'
 import Rubro from './components/Rubro'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path={'/'} element={ <Login/> } />
-          <Route path={'/inicio'} element={ <Home/> } />
+          <Route path={'/inicio'} element={ <Inicio/> } />
           <Route path={'/rubro/:rubro'} element={ <Rubro/> } />
        </Routes>
       </BrowserRouter>
