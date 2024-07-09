@@ -1,11 +1,11 @@
-import Aside from "./Aside"
 import Header from "./Header"
+import SideBar from "./SideBar"
 
 const Inicio = () => {
     return(
         <div className="h-screen">
             <Header/>
-            <Aside/>
+            <SideBar/>
             <div></div>
         </div>
     )
