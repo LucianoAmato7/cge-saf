@@ -1,8 +1,12 @@
+import Header from "./Header"
+import SideBar from "./SideBar"
+
 const Rubro = () => {
     return(
-        <>
-            <h2>Hola</h2>
-        </>
+        <div className="h-screen">
+            <Header/>
+            <SideBar/>
+        </div>
     )
 }
 

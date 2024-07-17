@@ -6,7 +6,7 @@ const Inicio = () => {
         <div className="h-screen">
             <Header/>
             <SideBar/>
-            <div></div>
+            {/* ACA EL COMPONENTE QUE CARGUE EL "RESUMEN (RESUME)" VA A HABER UNO PARA LOS DISTRITOS Y OTRO PARA NUCLEO */}
         </div>
     )
 }

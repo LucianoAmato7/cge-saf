@@ -4,7 +4,7 @@ import escudo from "/images/escudo.webp";
 const Login = () => {
   return (
     <div className="flex h-screen">
-      <div className="flex flex-col justify-center w-1/3 p-8 bg-slate-950 text-white">
+      <div className="defaultBGComponentsColor flex flex-col justify-around w-1/3 p-8 text-white">
         <h1 className="text-6xl font-bold text-center">CGE - SAF</h1>
         <Login_Form/>
         <button
