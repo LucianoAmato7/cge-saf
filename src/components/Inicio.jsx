@@ -1,3 +1,4 @@
+import DEResume from "./DEResume"
 import Header from "./Header"
 import SideBar from "./SideBar"
 
@@ -6,7 +7,7 @@ const Inicio = () => {
         <div className="h-screen">
             <Header/>
             <SideBar/>
-            {/* ACA EL COMPONENTE QUE CARGUE EL "RESUMEN (RESUME)" VA A HABER UNO PARA LOS DISTRITOS Y OTRO PARA NUCLEO */}
+            <DEResume/>
         </div>
     )
 }
