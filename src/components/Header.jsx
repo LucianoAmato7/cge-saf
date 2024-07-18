@@ -4,7 +4,7 @@ import escudo from '/images/escudo.webp'
 const Header = () => {
     return(
         <div className="flex flex-row defaultBGComponentsColor h-max sticky top-0 z-10">
-            <div className='w-40 flex justify-center'>
+            <div className='w-40 flex justify-center rounded-lg'>
                 <img src={escudo} alt="escudo" className="w-20 m-2" />
             </div>
             <div className="bg-slate-800 self-center mb-2 rounded-lg py-9 px-4 w-2/3 flex-grow mr-2">
